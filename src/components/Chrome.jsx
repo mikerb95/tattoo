@@ -1,8 +1,6 @@
-import { Link, useNavigate } from 'react-router-dom';
-import { Ic } from './Icons';
+import { Link } from 'react-router-dom';
 
 export function TopNav({ active = 'Inicio', bone = false }) {
-  const navigate = useNavigate();
   const items = ['Inicio', 'Portafolio', 'Servicios', 'Bioseguridad', 'Aftercare', 'Contacto'];
   const routes = {
     Inicio: '/', Portafolio: '/portafolio', Servicios: '/servicios',
